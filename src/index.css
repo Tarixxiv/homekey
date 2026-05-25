@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/dm-sans-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/dm-sans-bold.ttf") format("truetype");
+}
+
+@theme {
+  --font-sans: "DM Sans", sans-serif;
+  --color-primary: #333333;
+  --color-muted: #999999;
+  --color-accent: #0076FF;
+  --color-border: #DADADA;
+  --color-surface: #EEEEEE;
+  --color-error: #ef4444;
+  --radius-sm: 3px;
+  --radius-md: 7px;
+  --tracking-label: 0.33em;
+  --text-heading: 32px;
+  --text-heading-lg: 40px;
+}
+
+section {
+  scroll-margin-top: 5rem;
+}
