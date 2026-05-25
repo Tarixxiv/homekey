@@ -2,7 +2,7 @@ export function Hero() {
   return (
     <section id="about" className="relative bg-surface overflow-hidden min-h-150 md:min-h-175 flex flex-col items-center justify-center px-4 py-20">
       <img
-        src="/images/hero.webp"
+        src="./images/hero.webp"
         alt="Dom w tle"
         fetchPriority="high"
         className="absolute inset-0 w-full h-full object-cover opacity-30"
