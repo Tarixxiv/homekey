@@ -1,6 +1,6 @@
 const properties = [
   { image: "./images/property-1.webp", address: "ul. Grunwaldzka 212", city: "Gdynia" },
-  { image: "./images/property-2.webp", address: "ul. Kartuska 345", city: "Gda��sk" },
+  { image: "./images/property-2.webp", address: "ul. Kartuska 345", city: "Gdańsk" },
   { image: "./images/property-3.webp", address: "ul. Jana z Kolna 18", city: "Gdańsk" },
 ];
 
